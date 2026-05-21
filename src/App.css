@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+.card {
+  width: 350px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.dark .card {
+  background: #333;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.action-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
+}
+
+.status-online {
+  color: green;
+  font-weight: bold;
+}
+
+.status-offline {
+  color: red;
+  font-weight: bold;
+}
